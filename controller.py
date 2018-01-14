@@ -12,10 +12,10 @@ def connect():
     """Connect to the MySQL Database"""
     try:
         connection = mysql.connector.connect(
-            host='35.197.44.156',
-            database='alexandriabooks',
-            user='Justin Needham',
-            password='DeoJuvante',
+            host='Host Address',
+            database='=Database Name',
+            user='User Name',
+            password='Password',
         )
         if connection.is_connected():
             print("Successfully connected Alexandria Books")
